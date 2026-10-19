@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Security Champion</title>
+    <title>Security Alert</title>
     <style>
         body {
             background-color: #0f172a;
@@ -15,30 +15,46 @@
             height: 100vh;
             margin: 0;
             text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
         }
         .card {
             background-color: #1e293b;
-            padding: 40px;
+            padding: 30px;
             border-radius: 12px;
-            border-top: 5px solid #10b981;
+            border-top: 5px solid #ef4444; /* Neon red for danger */
             box-shadow: 0 10px 25px rgba(0,0,0,0.5);
-            max-width: 400px;
-            width: 90%;
+            max-width: 450px;
+            width: 100%;
         }
-        h1 { color: #10b981; }
-        p { color: #94a3b8; line-height: 1.6; }
-        .badge {
-            font-size: 4rem;
-            margin: 20px 0;
+        h1 { color: #ef4444; font-size: 1.6rem; margin-bottom: 10px; }
+        p { color: #94a3b8; line-height: 1.6; margin: 10px 0; }
+        .badge { font-size: 4rem; margin: 0; }
+        .tips {
+            text-align: left;
+            background-color: #0f172a;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+            font-size: 0.9rem;
+            color: #cbd5e1;
+            border-left: 3px solid #f59e0b; /* Orange warning accent */
         }
     </style>
 </head>
 <body>
     <div class="card">
-        <div class="badge">🏆</div>
-        <h1>Verification Successful!</h1>
-        <p>Congratulations. You have officially claimed your Thika MSME Security Champion digital badge.</p>
-        <p>Thank you for keeping our network safe.</p>
+        <div class="badge">🚨</div>
+        <h1>Teachable Moment</h1>
+        <p><strong>This was a simulated security test, and you clicked the link.</strong></p>
+        <p>If this had been a real cyberattack, your credentials or device could have been compromised. Please be very careful next time!</p>
+        
+        <div class="tips">
+            <strong>How to stay safe:</strong><br><br>
+            • Never click unexpected links or download random attachments.<br>
+            • Always verify the sender's exact email address.<br>
+            • Beware of emails creating an intense sense of urgency (like a sudden exam portal update).
+        </div>
     </div>
 </body>
 </html>
